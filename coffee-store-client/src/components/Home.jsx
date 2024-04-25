@@ -14,7 +14,6 @@ import cup8 from "../../public/images/cups/Rectangle 16.png"
 import { Link, useLoaderData } from "react-router-dom"
 import { FaArrowRight } from "react-icons/fa";
 import CoffeeCard from "./CoffeeCard"
-import { useState } from "react"
 
 
 const Home = () => {
@@ -26,7 +25,7 @@ const Home = () => {
             <div style={{ backgroundImage: `url(${bannerbg})` }} className="bg-no-repeat bg-left-bottom bg-cover py-64 pl-[50%] pr-10">
                 <div className="space-y-4">
                     <h2 className="text-white font-bold text-2xl">Would you like a Cup of Delicious Coffee?</h2>
-                    <p className="text-white font-light">It's coffee time - Sip & Savor - Relaxation in every sip! Get the nostalgia back!! Your companion of every moment!!! Enjoy the beautiful moments and make them memorable.</p>
+                    <p className="text-white font-light">Its coffee time - Sip & Savor - Relaxation in every sip! Get the nostalgia back!! Your companion of every moment!!! Enjoy the beautiful moments and make them memorable.</p>
                     <button className="btn bg-[#E3B577]">Learn More</button>
                 </div>
             </div>
